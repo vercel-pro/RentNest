@@ -1,0 +1,13 @@
+model PropertyImage {
+  id         String   @id @default(uuid())
+
+  imageUrl   String
+
+  propertyId String
+
+  property   Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+
+  createdAt  DateTime @default(now())
+
+  @@map("property_images")
+}
