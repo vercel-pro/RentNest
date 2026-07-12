@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "prisma generate && tsup",
     "start": "node dist/server.js",
     "stripe_login": "stripe login",
     "stripe:webhook": "stripe listen --forward-to http://localhost:5000/api/subscription/webhook",
@@ -44,6 +44,7 @@
     "jsonwebtoken": "^9.0.3",
     "pg": "^8.22.0",
     "stripe": "^22.3.0",
+    "tsup": "^8.5.1",
     "swagger-jsdoc": "^6.3.0",
     "swagger-ui-express": "^5.0.1"
   }
