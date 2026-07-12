@@ -1,6 +1,10 @@
 Backend Repo     : https://github.com/ramen72/PH_Assignment_4_RentNest.git
 Live API         : 
-API Docs         : https://drive.google.com/file/d/1JKjlh2j_K58OopbtXOHdVSa2qTefYxXE/view?usp=sharing
+API Docs         : http://localhost:5000/api-docs/
 Demo Video       : https://drive.google.com/file/d/1NDe7ecuSa7If1bdMnRp00vvgW88Pe8mw/view?usp=sharing
 Admin Email      : ADMIN@gmail.com
 Admin Password   : 12345678
+
+
+
+API Docs         : https://drive.google.com/file/d/1JKjlh2j_K58OopbtXOHdVSa2qTefYxXE/view?usp=sharing
